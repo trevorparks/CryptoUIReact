@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #141010;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100%;
+ 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+ 
+  font-family: "Lato", "Roboto", Helvetica, sans-serif;
+}
+
+.Search {
+  margin: 200px;
+}
+
+.result-container{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card-body {
+  background-image: linear-gradient(to right, #f70776, #680747);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.card-title{
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  background-color: #680747;
+  color: white;
+  border-radius: 10px;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
